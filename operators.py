@@ -1,5 +1,5 @@
 #Storing Values
-'''
+
 tree1 = float(input("Tree1"))
 tree2 = float(input("Tree2"))
 tree3 = float(input("Tree3"))
@@ -10,7 +10,7 @@ sum = tree1+tree2+tree3+tree4+tree5
 print("The sum of all the trees is:", sum)
 average = sum/5
 print("The average of the 5 trees is:", average) 
-'''
+
 
 amount = int(input("Enter an Amount: "))
 
@@ -46,7 +46,7 @@ print("Remaining Amount:", amount)
 
 print("Enter marks for 4 subjects")
 
-math = int(input("Maths: "))
+math = 3
 science = int(input("Science: "))
 bangla = int(input("Bangla: "))
 geography = int(input("Geography: "))
@@ -57,3 +57,8 @@ print("Sum of all the subjects:", sum)
 perc = (sum/400)*100
 print(end="Percentage Mark = ")
 print(perc)
+
+import math
+num = int(input("Enter a Number: "))
+sqrt = math.sqrt(num)
+print("Square Root = ", sqrt)
